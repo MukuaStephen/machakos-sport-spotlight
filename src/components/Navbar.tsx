@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, UserCircle } from 'lucide-react';
+import { Button } from './ui/button';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,12 @@ const Navbar = () => {
             <a href="/games" className="text-gray-700 hover:text-primary">Games</a>
             <a href="/news" className="text-gray-700 hover:text-primary">News</a>
             <a href="/schedules" className="text-gray-700 hover:text-primary">Schedules</a>
+            <a href="/signin">
+              <Button variant="secondary" className="flex items-center gap-2">
+                <UserCircle size={20} />
+                Sign In
+              </Button>
+            </a>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -35,6 +42,7 @@ const Navbar = () => {
               <a href="/games" className="block px-3 py-2 text-gray-700 hover:text-primary">Games</a>
               <a href="/news" className="block px-3 py-2 text-gray-700 hover:text-primary">News</a>
               <a href="/schedules" className="block px-3 py-2 text-gray-700 hover:text-primary">Schedules</a>
+              <a href="/signin" className="block px-3 py-2 text-gray-700 hover:text-primary">Sign In</a>
             </div>
           </div>
         )}

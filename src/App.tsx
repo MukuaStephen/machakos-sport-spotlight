@@ -10,6 +10,7 @@ import Football from "./pages/games/Football";
 import Rugby from "./pages/games/Rugby";
 import Basketball from "./pages/games/Basketball";
 import Schedules from "./pages/Schedules";
+import SignIn from "./pages/SignIn";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/games/rugby" element={<Rugby />} />
           <Route path="/games/basketball" element={<Basketball />} />
           <Route path="/schedules" element={<Schedules />} />
+          <Route path="/signin" element={<SignIn />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
