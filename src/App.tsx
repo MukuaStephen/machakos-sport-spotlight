@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Games from "./pages/Games";
+import News from "./pages/News";
 import Football from "./pages/games/Football";
 import Rugby from "./pages/games/Rugby";
 import Basketball from "./pages/games/Basketball";
@@ -20,6 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/games" element={<Games />} />
+          <Route path="/news" element={<News />} />
           <Route path="/games/football" element={<Football />} />
           <Route path="/games/rugby" element={<Rugby />} />
           <Route path="/games/basketball" element={<Basketball />} />
