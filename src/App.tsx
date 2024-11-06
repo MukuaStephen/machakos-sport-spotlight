@@ -23,40 +23,6 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/games" element={<GamesSection />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/schedules" element={<Schedules />} />
-          <Route path="/signin" element={<SignIn />} />
-          <Route
-            path="/profile"
-            element={
-              <Profile
-                name={" Eric"}
-                dob={"20/09/2002"}
-                height={"189cm"}
-                weight={"67kg"}
-                position={"Flanker"}
-                stats={{ assists: 2, gamesPlayed: 2, goals: 2 }}
-                photoGallery={[image1, image2, image1, image2]}
-                achievements={[]}
-                videos={[
-                  {
-                    title: "Sample Video 1",
-                    url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-                  },
-                  {
-                    title: "Sample Video 2",
-                    url: "https://www.youtube.com/embed/tgbNymZ7vqY",
-                  },
-                  {
-                    title: "Sample Video 3",
-                    url: "https://www.youtube.com/embed/3JZ_D3ELwOQ",
-                  },
-                ]}
-              />
-            }
-          />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
