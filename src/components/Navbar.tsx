@@ -19,6 +19,14 @@ const Navbar = () => {
             <a href="/games" className="text-gray-700 hover:text-primary">Games</a>
             <a href="/news" className="text-gray-700 hover:text-primary">News</a>
             <a href="/schedules" className="text-gray-700 hover:text-primary">Schedules</a>
+            <a href="/recruiting" className="text-gray-700 hover:text-primary">Recruiting</a>
+            <a href="/signin" >
+
+            <Button variant="secondary" className="flex items-center gap-2 my-2">
+              <UserCircle size={28} className="text-gray-700"/>
+               player profile
+            </Button>
+            </a>
           </div>
 
           <div className="md:hidden flex items-center">

@@ -11,7 +11,7 @@ const Rugby = () => {
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <img 
-              src="https://images.unsplash.com/photo-1519861531473-9200262188bf" 
+              src="/images/rugbyball.jpg" 
               alt="Rugby Team" 
               className="rounded-lg w-full h-[400px] object-cover"
             />

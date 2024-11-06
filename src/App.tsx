@@ -15,6 +15,7 @@ import image2 from "./images/image1.jpeg";
 import Basketball from "./pages/games/Basketball";
 import Football from "./pages/games/Football";
 import Rugby from "./pages/games/Rugby";
+import Recruting from "./components/Recruting";
 
 const queryClient = new QueryClient();
 
@@ -63,6 +64,8 @@ const App = () => (
           <Route path="/games/rugby" element={<Rugby />} />
           <Route path="/games/football" element={<Football />} />
           <Route path="/games/basketball" element={<Basketball />} />
+          <Route path="/recruiting" element={<Recruting />} />
+
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
+import football from "../images/football.jpg"
+import rugby from "../images/rugbyball.jpg"
 const GamesSection = () => {
   const sportsData = {
     football: {
@@ -90,14 +91,14 @@ const GamesSection = () => {
   const sports = [
     {
       title: "Football",
-      image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211",
+      image: football,
       description:
         "Join our competitive football teams and participate in regional tournaments.",
       link: "/games/football",
     },
     {
       title: "Rugby",
-      image: "https://images.unsplash.com/photo-1519861531473-9200262188bf",
+      image: rugby,
       description:
         "Experience the thrill of rugby with our dedicated coaching staff.",
       link: "/games/rugby",

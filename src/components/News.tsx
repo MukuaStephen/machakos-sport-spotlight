@@ -9,20 +9,21 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-
+import football from "../images/football.jpg"
+import rugby from "../images/rugbyball.jpg"
 const News = () => {
   const sportsNews = [
     {
       title: "Football Team Advances to National Finals",
       date: "March 20, 2024",
-      image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211",
+      image: football,
       description:
         "Our university football team has made history by qualifying for the national finals after a thrilling victory in the semifinals.",
     },
     {
       title: "Rugby Team Welcomes New Coach",
-      date: "March 18, 2024",
-      image: "https://images.unsplash.com/photo-1544213456-bc37a1b8a2c9",
+      date: "29 october, 2024",
+      image: rugby,
       description:
         "Former national team player joins Machakos University as the new head coach for our rugby program.",
     },
