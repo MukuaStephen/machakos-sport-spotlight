@@ -1,4 +1,4 @@
-# Welcome to your GPT Engineer project
+# Welcome to your Machakos University Sports Network project
 
 ## Project info
 
