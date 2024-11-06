@@ -1,3 +1,4 @@
+import { builtinModules } from "module";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -19,6 +20,10 @@ export default {
     },
     extend: {
       colors: {
+        mksu: {
+          gold: "#FFD700",
+          blue: "#1A365D",
+        },
         primary: "#1a237e",
         secondary: "#d32f2f",
         border: "hsl(var(--border))",
@@ -26,6 +31,7 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
@@ -47,5 +53,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [import("tailwindcss-animate")],
 } satisfies Config;
