@@ -153,18 +153,18 @@ const GamesSection = () => {
               <Tabs defaultValue="football" className="w-full">
                 <TabsList className="flex flex-wrap justify-center gap-2 mb-8">
                   {Object.keys(sportsData).map((sport) => (
-                    <TabsTrigger
-                      key={sport}
-                      value={sport}
-                      className="px-6 py-3 rounded-full"
-                    >
-                      {sportsData[sport].name}
-                    </TabsTrigger>
+                  <TabsTrigger
+                    key={sport}
+                    value={sport}
+                    className="px-2 py-1 sm:px-4 sm:py-2 md:px-6 md:py-3 rounded-full text-xs sm:text-sm md:text-base"
+                  >
+                    {sportsData[sport].name}
+                  </TabsTrigger>
                   ))}
                 </TabsList>
                 {Object.entries(sportsData).map(([key, data]) => (
                   <TabsContent key={key} value={key}>
-                    <Card className="p-6">
+                    <Card className="p-8">
                       <SportTeam
                         sportName={data.name}
                         coach={data.coach}
