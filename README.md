@@ -1,8 +1,18 @@
 # Welcome to your Machakos University Sports Network project
 
 ## Project info
+Develop a user-friendly website for Machakos University students.
 
-**URL**: https://run.gptengineer.app/projects/12aa4e4e-8a78-4659-b5ec-a8616ee3a2fa/improve
+Enable users to create accounts and join sports activities.
+
+Provide an “About Us” section detailing the university's sports mission and values.
+
+Allow users to upload photos, skills, and achievements to market themselves.
+
+Establish partnerships and integration with other sports clubs such as NBA Africa and Betika.
+
+Create an interactive platform for community engagement and networking.
+
 
 ## How can I edit this code?
 
